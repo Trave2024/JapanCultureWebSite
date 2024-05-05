@@ -1,2 +1,2 @@
-# JapanCultureWebSite
-A web site about Japan Culture
+# japanculturesite
+A web site about japan culture

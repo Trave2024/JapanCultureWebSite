@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #BC002D; /* Définis la couleur de fond en rouge */
+    color: white; /* Change la couleur du texte pour améliorer la visibilité */
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0); /* Fond semi-transparent pour le titre */
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    background-color: #f4f4f9; /* Couleur de fond des boutons */
+    padding: 10px 20px; /* Espacement interne pour augmenter la taille du bouton */
+    border-radius: 8px; /* Rayon des coins arrondis */
+    display: inline-block; /* Permet aux liens de respecter les propriétés de padding et de border */
+    transition: background-color 0.3s; /* Transition douce pour les interactions */
+}
+
+nav ul li a:hover {
+    background-color: #e5afbc; /* Changement de couleur au survol */
+}
+
+footer {
+    background-color: #BC002D;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    margin: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.category-description {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.category-button {
+    display: block;
+    width: 300px; /* Width of the button */
+    height: 200px; /* Height of the button */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    line-height: 200px; /* Vertical centering for the text */
+    border-radius: 15px; /* Rounded corners */
+    margin: 10px auto; /* Centers the button and adds space around */
+    transition: transform 0.3s ease; /* Smooth transform effect on hover */
+}
+
+.category-button:hover {
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+.category-button span {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for readability */
+    padding: 10px 20px; /* Padding inside the span */
+    border-radius: 10px; /* Ensures the span also has rounded corners */
+}
+
+#myBtn {
+    display: none; /* Cache le bouton par défaut */
+    position: fixed; /* Fixe le bouton par rapport à la fenêtre de visualisation */
+    bottom: 20px; /* Positionne le bouton à 20px du bas de la page */
+    left: 50%; /* Déplace le bouton à 50% de la largeur de la fenêtre depuis la gauche */
+    transform: translateX(-50%); /* Décale le bouton de 50% de sa propre largeur vers la gauche pour le centrer */
+    z-index: 99; /* S'assure que le bouton est au-dessus des autres éléments */
+    border: none; /* Pas de bordure */
+    outline: none; /* Pas de contour */
+    background-color: #BC002D; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    cursor: pointer; /* Affiche un curseur pointeur pour indiquer que le bouton est cliquable */
+    padding: 15px; /* Espacement intérieur autour du texte */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+#myBtn:hover {
+    background-color: #e5afbc; /* Change la couleur de fond lors du survol */
+}
+
+#headerImage {
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+    height: 10%; /* Adjust the height as needed */
+    width: 10%; /* Maintain aspect ratio */
+}
