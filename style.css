@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background-color: #BC002D; /* Définis la couleur de fond en rouge */
-    color: white; /* Change la couleur du texte pour améliorer la visibilité */
+    background-color: #BC002D; 
+    color: white; 
     text-align: center;
     padding: 20px 10px;
 }
@@ -16,7 +16,7 @@ header {
 header h1 {
     margin: 0;
     padding: 20px 0;
-    background-color: rgba(0, 0, 0, 0); /* Fond semi-transparent pour le titre */
+    background-color: rgba(0, 0, 0, 0);
     display: inline-block;
 }
 
@@ -35,14 +35,14 @@ section {
 
 .category-button {
     display: block;
-    width: 50px; /* Width of the button */
-    height: 50px; /* Height of the button */
+    width: 50px;
+    height: 50px; 
     background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
-    line-height: 50px; /* Vertical centering for the text */
-    border-radius: 15px; /* Rounded corners */
-    margin: 10px auto; /* Centers the button and adds space around */
-    transition: transform 0.3s ease; /* Smooth transform effect on hover */
+    line-height: 50px; 
+    border-radius: 15px;
+    margin: 10px auto; 
+    transition: transform 0.3s ease;
 }
