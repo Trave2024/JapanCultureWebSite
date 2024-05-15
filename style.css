@@ -35,8 +35,8 @@ section {
 
 .category-button {
     display: block;
-    width: 150px; /* Width of the button */
-    height: 100px; /* Height of the button */
+    width: 50px; /* Width of the button */
+    height: 50px; /* Height of the button */
     background-size: cover;
     background-position: center;
     color: white;
