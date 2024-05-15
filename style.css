@@ -69,8 +69,8 @@ section {
 
 .category-button {
     display: block;
-    width: 300px; /* Width of the button */
-    height: 200px; /* Height of the button */
+    width: 150px; /* Width of the button */
+    height: 100px; /* Height of the button */
     background-size: cover;
     background-position: center;
     color: white;
@@ -79,10 +79,6 @@ section {
     border-radius: 15px; /* Rounded corners */
     margin: 10px auto; /* Centers the button and adds space around */
     transition: transform 0.3s ease; /* Smooth transform effect on hover */
-}
-
-.category-button:hover {
-    transform: scale(1.05); /* Slightly enlarges the button on hover */
 }
 
 .category-button span {
