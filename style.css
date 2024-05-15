@@ -20,40 +20,6 @@ header h1 {
     display: inline-block;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: black;
-    text-decoration: none;
-    background-color: #f4f4f9; /* Couleur de fond des boutons */
-    padding: 10px 20px; /* Espacement interne pour augmenter la taille du bouton */
-    border-radius: 8px; /* Rayon des coins arrondis */
-    display: inline-block; /* Permet aux liens de respecter les propriétés de padding et de border */
-    transition: background-color 0.3s; /* Transition douce pour les interactions */
-}
-
-nav ul li a:hover {
-    background-color: #e5afbc; /* Changement de couleur au survol */
-}
-
-footer {
-    background-color: #BC002D;
-    color: #fff;
-    text-align: center;
-    padding: 10px 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 section {
     margin: 20px;
 }
